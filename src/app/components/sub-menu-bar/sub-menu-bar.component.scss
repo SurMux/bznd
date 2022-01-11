@@ -1,0 +1,22 @@
+.sub-menu-bar {
+    top: 70px;
+    left: 0px;
+    width: 100%;
+    max-width: 100%;
+    background: white 0% 0% no-repeat;
+    opacity: 1;
+    color: black;
+    display: flex;
+    position: fixed;
+    >div {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        >div {
+            margin: 25px;
+            display: flex;
+            align-content: center;
+        }
+    }
+}

@@ -6,15 +6,17 @@ import { AppComponent } from './app.component';
 
 // Custom Modules
 import {MatIconModule} from '@angular/material/icon';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // Components
-import { MenuBarComponent } from './menu-bar/menu-bar.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import { SubMenuBarComponent } from './components/sub-menu-bar/sub-menu-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuBarComponent
+    MenuBarComponent,
+    SubMenuBarComponent
   ],
   imports: [
     BrowserModule,
