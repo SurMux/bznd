@@ -11,12 +11,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // Components
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { SubMenuBarComponent } from './components/sub-menu-bar/sub-menu-bar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuBarComponent,
-    SubMenuBarComponent
+    SubMenuBarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
