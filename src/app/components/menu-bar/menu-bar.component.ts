@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MemberComponent } from '../member/member.component';
+import {MatDialog, MAT_DIALOG_DATA} from '@angular/material/dialog';
 
 @Component({
   selector: 'app-menu-bar',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuBarComponent implements OnInit {
 
-  constructor() { }
+  constructor(public dialog: MatDialog) { }
 
   ngOnInit(): void {
+  }
+
+  openDialog() {
+    this.dialog.open(MemberComponent, {
+      height: '80%',
+      width: '80%',
+
+    });
   }
 
 }

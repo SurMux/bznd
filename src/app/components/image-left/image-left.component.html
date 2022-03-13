@@ -1,0 +1,31 @@
+<div [ngStyle]="{'background-color': color}">
+
+    <!-- Bild left + Text right -->
+    <div *ngIf="imgPosition == 'left'" class="flex-container">
+        <img src="{{img}}" class="flex-item">
+
+        <div class="flex-item right-text">
+            <h4 [ngClass]="'text-align-right'">{{ (content + '.secondary-title') | translate}}</h4>
+            <h2 [ngClass]="'text-align-right'">{{ (content + '.title') | translate}}</h2>
+            <p>{{ (content + '.content') | translate}}</p>
+        </div>
+    </div>
+
+    <!-- Bild rechts + Text left -->
+    <div *ngIf="imgPosition == 'right'" class="flex-container">
+        <div class="flex-item left-text">
+            <h4>{{ (content + '.secondary-title') | translate}}</h4>
+            <h2>{{ (content + '.title') | translate}}</h2>
+            <p>{{ (content + '.content') | translate}}</p>
+        </div>
+        <img src="{{img}}" class="flex-item">
+
+    </div>
+
+    <!-- Bild none + Text left -->
+    <div *ngIf="imgPosition == 'none'" class="center-text">
+        <h4>{{ (content + '.secondary-title') | translate}}</h4>
+        <h2>{{ (content + '.title') | translate}}</h2>
+        <p>{{ (content + '.content') | translate}}</p>
+    </div>
+</div>
