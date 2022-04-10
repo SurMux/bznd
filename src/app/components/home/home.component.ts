@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
 
   boxContentArray: [string, string][] = [
     ["/assets/images/glowing-abstract-sd.jpg", "Box1"],
-    ["/assets/images/Gehirn2PNG.png", "Box2"],
+    ["/assets/images/IMG_4160.jpeg", "Box2"],
     ["/assets/images/aldebaran-s-uXchDIKs4qI-unsplash.jpg", "Box3"]
   ];
 

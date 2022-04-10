@@ -56,9 +56,11 @@ div {
     justify-content: center;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 1000px) {
     #box-content {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

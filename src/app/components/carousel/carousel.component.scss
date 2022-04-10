@@ -1,0 +1,31 @@
+.custom-container {
+    background-color: #F4EEF6;
+}
+
+.carousel-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2.5% 0;
+}
+
+.carousel-item {
+    >div {
+        max-width: 580px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid white;
+        >h4,
+        p {
+            text-align: left !important;
+            padding: 2%;
+        }
+    }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    text-decoration: none;
+    background-color: black !important;
+}

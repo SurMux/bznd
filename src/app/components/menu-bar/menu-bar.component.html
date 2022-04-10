@@ -10,7 +10,7 @@
         </div>
     </div>
     <div>
-        <div>
+        <div (click)="changeVisibility()">
             <mat-icon aria-hidden="false" aria-label="easy language" class="menu-icon">local_library</mat-icon>
             <div>Leichte Sprache</div>
         </div>
@@ -20,3 +20,4 @@
         </div>
     </div>
 </div>
+<iframe id="inlineFrameExample" title="Inline Frame Example" width="100%" height="500px" src="https://www.vereinonline.org/BZND/?action=members_mitgliedsantrag" [hidden]="hideIFrame">

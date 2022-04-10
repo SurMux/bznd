@@ -22,4 +22,10 @@ export class MenuBarComponent implements OnInit {
     });
   }
 
+  hideIFrame: boolean = true;
+
+  changeVisibility(): void {
+    this.hideIFrame = !this.hideIFrame;
+  }
+
 }

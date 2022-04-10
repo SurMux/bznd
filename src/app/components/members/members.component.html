@@ -1,0 +1,9 @@
+<div id="flex-container">
+    <div *ngFor="let member of members" id="member-card">
+        <img src="{{member.img}}">
+        <div>
+            <span>{{member.name}}</span>
+            <p>{{ ('Member.' + member.content) | translate }}</p>
+        </div>
+    </div>
+</div>

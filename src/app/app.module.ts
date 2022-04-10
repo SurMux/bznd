@@ -21,6 +21,8 @@ import { DatenschutzComponent } from './components/datenschutz/datenschutz.compo
 import { HomeComponent } from './components/home/home.component';
 import { MemberComponent } from './components/member/member.component';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MembersComponent } from './components/members/members.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -38,7 +40,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     ImpressumComponent,
     DatenschutzComponent,
     HomeComponent,
-    MemberComponent
+    MemberComponent,
+    MembersComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,

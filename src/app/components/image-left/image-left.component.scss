@@ -1,80 +1,70 @@
-.flex-container {
-    display: flex;
-}
-
-.flex-item {
-    flex: 1;
-    margin: 0;
-}
-
-img {
-    min-width: 50%;
-}
-
-.center-text {
-    padding-right: 14.5%;
-    padding-left: 14.5%;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 50vh;
-}
-
-.left-text {
-    padding-left: 15%;
-    padding-right: 5%;
-}
-
-.right-text {
-    padding-right: 15%;
-    padding-left: 5%;
-    text-align: right !important;
-    float: right !important;
-}
-
-.right-text,
-.left-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.text-align-right {
-    text-align: right !important;
-    float: right !important;
-}
-
-@media only screen and (max-device-width: 1000px) {
-    div {
-        width: 100vw;
-    }
     .flex-container {
         display: flex;
-        flex-direction: column;
     }
-    .flex-item,
-    img {
-        max-width: 100%;
+
+    .flex-item {
+        flex: 1;
         margin: 0;
     }
-    .left-text,
-    .right-text,
+
+    img {
+        min-width: 50%;
+        max-height: 50vh;
+    }
+
     .center-text {
-        padding: 0;
-        text-align: left !important;
-        width: 100% !important;
+        padding-right: 14.5%;
+        padding-left: 14.5%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 50vh;
+    }
+
+    .left-text {
+        padding-left: 15%;
+        padding-right: 5%;
+    }
+
+    .right-text {
+        padding-right: 15%;
+        padding-left: 5%;
+        text-align: right;
+        float: right;
+    }
+
+    .right-text,
+    .left-text {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    h2,
-    h4,
-    h3 {
-        max-width: 100%;
-        text-align: left !important;
+
+    @media only screen and (max-device-width: 1000px) {
+        div {
+            width: 100vw;
+        }
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+        }
+        .flex-item,
+        img {
+            max-width: 100%;
+            margin: 0;
+        }
+        .left-text,
+        .right-text,
+        .center-text {
+            padding: 0;
+            text-align: left;
+            width: 100% !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        p {
+            max-width: 90%;
+        }
     }
-    p {
-        max-width: 80%;
-    }
-}
