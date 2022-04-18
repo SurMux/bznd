@@ -17,6 +17,6 @@ export class CarouselComponent implements OnInit {
     {img: "/assets/images/aldebaran-s-uXchDIKs4qI-unsplash.jpg", name: "Dr. Karin Joder", content: "Joder"}
   ];
 
-
+  images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
 
 }

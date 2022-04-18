@@ -23,6 +23,7 @@ import { MemberComponent } from './components/member/member.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MembersComponent } from './components/members/members.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -58,7 +59,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

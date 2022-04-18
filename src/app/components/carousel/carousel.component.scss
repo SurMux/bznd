@@ -1,45 +1,61 @@
 .custom-container {
     background-color: #F4EEF6;
+    align-content: center;
 }
 
-.multi-item-carousel {
-    .carousel-inner {
-        >.item {
-            transition: 500ms ease-in-out left;
-        }
-        .active {
-            &.left {
-                left: -33%;
-            }
-            &.right {
-                left: 33%;
-            }
-        }
-        .next {
-            left: 33%;
-        }
-        .prev {
-            left: -33%;
-        }
-        @media all and (transform-3d),
-        (-webkit-transform-3d) {
-            >.item {
-                // use your favourite prefixer here
-                transition: 500ms ease-in-out left;
-                transition: 500ms ease-in-out all;
-                backface-visibility: visible;
-                transform: none!important;
-            }
-        }
-    }
-    .carouse-control {
-        &.left,
-        &.right {
-            background-image: none;
-        }
-    }
+.picsum-img-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
 }
 
+img {
+    max-width: 500px;
+}
+
+.carousel-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+// .multi-item-carousel {
+//     .carousel-inner {
+//         >.item {
+//             transition: 500ms ease-in-out left;
+//         }
+//         .active {
+//             &.left {
+//                 left: -33%;
+//             }
+//             &.right {
+//                 left: 33%;
+//             }
+//         }
+//         .next {
+//             left: 33%;
+//         }
+//         .prev {
+//             left: -33%;
+//         }
+//         @media all and (transform-3d),
+//         (-webkit-transform-3d) {
+//             >.item {
+//                 // use your favourite prefixer here
+//                 transition: 500ms ease-in-out left;
+//                 transition: 500ms ease-in-out all;
+//                 backface-visibility: visible;
+//                 transform: none!important;
+//             }
+//         }
+//     }
+//     .carouse-control {
+//         &.left,
+//         &.right {
+//             background-image: none;
+//         }
+//     }
+// }
 
 /********************************
 
