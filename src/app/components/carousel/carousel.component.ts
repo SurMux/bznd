@@ -16,4 +16,7 @@ export class CarouselComponent implements OnInit {
     {img: "/assets/images/IMG_4160.jpeg", name: "Anke Bay", content: "Bay"},
     {img: "/assets/images/aldebaran-s-uXchDIKs4qI-unsplash.jpg", name: "Dr. Karin Joder", content: "Joder"}
   ];
+
+
+
 }
