@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,10 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+showCarousel: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  @HostListener('window:resize', ['$event'])
+onResize(event: { target: { innerWidth: number; }; }) {
+  if (event.target.innerWidth <= 600) {
+    this.showCarousel = true;
+  } else {
+    this.showCarousel = false;
+  };
+}
 
 
   boxContentArray: [string, string][] = [

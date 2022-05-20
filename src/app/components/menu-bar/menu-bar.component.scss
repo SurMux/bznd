@@ -10,6 +10,7 @@
     flex-direction: row;
     position: sticky;
     font-family: "Open Sans" !important;
+    z-index: 5;
     >div {
         flex: 1;
         display: flex;

@@ -48,15 +48,15 @@ div {
 }
 
 .center-text {
-    padding-right: 14.5%;
-    padding-left: 14.5%;
+    padding-right: 12%;
+    padding-left: 12%;
     text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-@media only screen and (max-device-width: 1000px) {
+@media only screen and (max-device-width: 1100px) {
     #box-content {
         display: flex;
         flex-direction: column;

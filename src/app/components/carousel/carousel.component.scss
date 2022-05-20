@@ -1,6 +1,7 @@
 .custom-container {
     background-color: #F4EEF6;
     align-content: center;
+    height: 700px;
 }
 
 .picsum-img-wrapper {
@@ -11,12 +12,13 @@
 }
 
 img {
-    max-width: 500px;
+    max-width: 600px;
 }
 
 .carousel-text {
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 // .multi-item-carousel {

@@ -1,9 +1,13 @@
+.left-text {
+    padding-top: 20px;
+}
+
 #flex-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: 50px;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
     margin-bottom: 50px;
 }
 
@@ -11,7 +15,8 @@
     border: 2px solid #F4EEF6;
     max-width: 20%;
     font-size: 15px !important;
-    margin-bottom: 20px;
+    margin: 20px;
+    flex: 1 0 21% !important;
     >img {
         max-width: 100%;
         display: block;

@@ -1,3 +1,8 @@
+<div class="left-text">
+    <h4>{{ ('Member.secondary-title') | translate}}</h4>
+    <h2>{{ ('Member.title') | translate}}</h2>
+    <p>{{ ('Member.content') | translate}}</p>
+</div>
 <div id="flex-container">
     <div *ngFor="let member of members" id="member-card">
         <img src="{{member.img}}">

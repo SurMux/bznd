@@ -13,7 +13,7 @@ export class CarouselComponent implements OnInit {
   }
   carousel: {img: string, name: string, content: string}[] = [
     {img: "/assets/images/glowing-abstract-sd.jpg", name: "Dr. Karin Joder", content: "Joder"},
-    {img: "/assets/images/IMG_4160.jpeg", name: "Anke Bay", content: "Bay"},
+    {img: "/assets/images/gehirnbox.PNG", name: "Anke Bay", content: "Bay"},
     {img: "/assets/images/aldebaran-s-uXchDIKs4qI-unsplash.jpg", name: "Dr. Karin Joder", content: "Joder"}
   ];
 

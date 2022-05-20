@@ -12,35 +12,6 @@
         max-height: 50vh;
     }
 
-    .center-text {
-        padding-right: 14.5%;
-        padding-left: 14.5%;
-        text-align: left;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        min-height: 50vh;
-    }
-
-    .left-text {
-        padding-left: 15%;
-        padding-right: 5%;
-    }
-
-    .right-text {
-        padding-right: 15%;
-        padding-left: 5%;
-        text-align: right;
-        float: right;
-    }
-
-    .right-text,
-    .left-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
     @media only screen and (max-device-width: 1000px) {
         div {
             width: 100vw;

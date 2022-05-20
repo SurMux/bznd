@@ -19,11 +19,12 @@ import { InfoBoxComponent } from './components/info-box/info-box.component';
 import { ImpressumComponent } from './components/impressum/impressum.component';
 import { DatenschutzComponent } from './components/datenschutz/datenschutz.component';
 import { HomeComponent } from './components/home/home.component';
-import { MemberComponent } from './components/member/member.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MembersComponent } from './components/members/members.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MitgliedantragComponent } from './components/mitgliedantrag/mitgliedantrag.component';
+import { SpendenComponent } from './components/spenden/spenden.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -41,9 +42,10 @@ export function HttpLoaderFactory(http: HttpClient) {
     ImpressumComponent,
     DatenschutzComponent,
     HomeComponent,
-    MemberComponent,
     MembersComponent,
-    CarouselComponent
+    CarouselComponent,
+    MitgliedantragComponent,
+    SpendenComponent
   ],
   imports: [
     BrowserModule,

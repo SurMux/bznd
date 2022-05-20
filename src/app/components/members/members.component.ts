@@ -13,17 +13,11 @@ export class MembersComponent implements OnInit {
   }
 
   members: {img: string, name: string, content: string}[] = [
-    {img: "/assets/images/DrJoder_CLEVER_PEOPLE.jpg", name: "Dr. Karin Joder", content: "Joder"},
-    {img: "/assets/images/DrJoder_CLEVER_PEOPLE.jpg", name: "Anke Bay", content: "Bay"},
-    {img: "/assets/images/DrJoder_CLEVER_PEOPLE.jpg", name: "Dr. Karin Joder", content: "Joder"},
-    {img: "/assets/images/DrJoder_CLEVER_PEOPLE.jpg", name: "Anke Bay", content: "Bay"},
-    {img: "/assets/images/DrJoder_CLEVER_PEOPLE.jpg", name: "Dr. Karin Joder", content: "Joder"},
-    {img: "/assets/images/DrJoder_CLEVER_PEOPLE.jpg", name: "Anke Bay", content: "Bay"},
-    {img: "/assets/images/DrJoder_CLEVER_PEOPLE.jpg", name: "Dr. Karin Joder", content: "Joder"},
-    {img: "/assets/images/DrJoder_CLEVER_PEOPLE.jpg", name: "Anke Bay", content: "Bay"},
-    {img: "/assets/images/DrJoder_CLEVER_PEOPLE.jpg", name: "Dr. Karin Joder", content: "Joder"},
-    {img: "/assets/images/DrJoder_CLEVER_PEOPLE.jpg", name: "Anke Bay", content: "Bay"},
-    {img: "/assets/images/Manfred.Bartel_17031951.jpg", name: "Prof. Dr.-Ing. em. Manfred Bartel", content: "Bartel"}
+    {img: "/assets/images/JudithRommel.jpg", name: "Judith Rommel", content: "JudithRommel"},
+    {img: "/assets/images/ManfredBartel.jpg", name: "Manfred Bartel", content: "ManfredBartel"},
+    {img: "/assets/images/PiaBeyerWunsch.jpg", name: "PiaBeyer Wunsch", content: "PiaBeyerWunsch"},
+    {img: "/assets/images/PiaBeyerWunsch.jpg", name: "PiaBeyer Wunsch", content: "PiaBeyerWunsch"},
+    {img: "/assets/images/PiaBeyerWunsch.jpg", name: "PiaBeyer Wunsch", content: "PiaBeyerWunsch"},
   ];
 
 }
