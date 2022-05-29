@@ -12,9 +12,9 @@
         max-height: 50vh;
     }
 
-    @media only screen and (max-device-width: 1000px) {
+    @media only screen and (max-device-width: 1200px) {
         div {
-            width: 100vw;
+            width: 100%;
         }
         .flex-container {
             display: flex;
@@ -24,16 +24,6 @@
         img {
             max-width: 100%;
             margin: 0;
-        }
-        .left-text,
-        .right-text,
-        .center-text {
-            padding: 0;
-            text-align: left;
-            width: 100% !important;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
         }
         p {
             max-width: 90%;

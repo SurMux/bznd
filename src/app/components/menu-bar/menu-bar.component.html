@@ -1,57 +1,19 @@
 <div class="menu-bar">
-    <style>
-        .ra-button {
-            padding: .3em .9em;
-            border-radius: .25em;
-            background: linear-gradient(#fff, #efefef);
-            box-shadow: 0 1px .2em gray;
-            display: inline-flex;
-            align-items: center;
-            cursor: pointer;
-        }
-
-        .ra-button img {
-            height: 1em;
-            margin: 0 .5em 0 0;
-        }
-    </style>
-    <div id="ra-player" data-skin="https://assets.readaloudwidget.com/embed/skins/default">
-        <div class="ra-button" onclick="readAloud(document.getElementById('ra-audio'), document.getElementById('ra-player'))"><img src="https://assets.readaloudwidget.com/embed/skins/default/play-icon.png" /> Listen to this article</div>
+    <div class="menu-item">
+        <mat-icon aria-hidden="false" aria-label="person add" class="menu-icon read-aloud">person_add_alt</mat-icon>
+        <div><a routerLink="/mitgliedantrag" routerLinkActive="false">Mitglied werden</a></div>
     </div>
-    <audio id="ra-audio" data-lang="en-US" data-voice="Google en-US-Standard-A" data-key="0e37a6e5200a7c82189755ca82e8f429"></audio>
-    <script>
-        function readAloud(e, n) {
-            var s = "https://assets.readaloudwidget.com/embed/";
-            /iPad|iPhone|iPod/.test(navigator.userAgent) && (e.src = s + "sound/silence.mp3", e.play(), "undefined" != typeof speechSynthesis && speechSynthesis.speak(new SpeechSynthesisUtterance(" ")));
-            var t = document.createElement("script");
-            t.onload = function() {
-                readAloudInit(e, n)
-            }, t.src = s + "js/readaloud.min.js", document.head.appendChild(t)
-        }
-    </script>
-    <div>
-        <div class="menu-item">
-            <mat-icon aria-hidden="false" aria-label="person add" class="menu-icon read-aloud">person_add_alt</mat-icon>
-            <div><a routerLink="/mitgliedantrag" routerLinkActive="false">Mitglied werden</a></div>
-        </div>
-        <div>
-            <mat-icon aria-hidden="false" aria-label="donate" class="menu-icon">volunteer_activism</mat-icon>
-            <div><a routerLink="/donate" routerLinkActive="false">Spenden</a></div>
-        </div>
+    <div class="menu-item">
+        <mat-icon aria-hidden="false" aria-label="donate" class="menu-icon">volunteer_activism</mat-icon>
+        <div><a (click)="goToLink('https://www.vereinonline.org/BZND/?spenden')" href="">Spenden</a></div>
     </div>
-    <div>
-        <div>
-            <mat-icon aria-hidden="false" aria-label="easy language" class="menu-icon">local_library</mat-icon>
-            <div>Leichte Sprache</div>
-        </div>
-        <div>
-            <mat-icon aria-hidden="false" aria-label="read" class="menu-icon">volume_up</mat-icon>
-            <div onclick="readAloud(document.getElementById('ra-audio'), document.getElementById('ra-player'))">Vorlesen</div>
-        </div>
+    <div class="menu-item">
+        <mat-icon aria-hidden="false" aria-label="easy language" class="menu-icon">local_library</mat-icon>
+        <div>Leichte Sprache</div>
     </div>
-
-
-
-
+    <div class="menu-item">
+        <mat-icon aria-hidden="false" aria-label="read" class="menu-icon">volume_up</mat-icon>
+        <div onclick="readAloud(document.getElementById('ra-audio'), document.getElementById('ra-player'))">Vorlesen</div>
+    </div>
 
 </div>

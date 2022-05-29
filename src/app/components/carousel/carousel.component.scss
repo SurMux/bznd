@@ -1,91 +1,20 @@
 .custom-container {
     background-color: #F4EEF6;
     align-content: center;
-    height: 700px;
 }
 
 .picsum-img-wrapper {
+    width: 100%;
+    max-height: 60vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 20px;
-}
-
-img {
-    max-width: 600px;
 }
 
 .carousel-text {
     text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
     margin-bottom: 50px;
     margin-top: 20px;
 }
-
-// .multi-item-carousel {
-//     .carousel-inner {
-//         >.item {
-//             transition: 500ms ease-in-out left;
-//         }
-//         .active {
-//             &.left {
-//                 left: -33%;
-//             }
-//             &.right {
-//                 left: 33%;
-//             }
-//         }
-//         .next {
-//             left: 33%;
-//         }
-//         .prev {
-//             left: -33%;
-//         }
-//         @media all and (transform-3d),
-//         (-webkit-transform-3d) {
-//             >.item {
-//                 // use your favourite prefixer here
-//                 transition: 500ms ease-in-out left;
-//                 transition: 500ms ease-in-out all;
-//                 backface-visibility: visible;
-//                 transform: none!important;
-//             }
-//         }
-//     }
-//     .carouse-control {
-//         &.left,
-//         &.right {
-//             background-image: none;
-//         }
-//     }
-// }
-
-/********************************
-
-.carousel-inner {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 2.5% 0;
-}
-
-.carousel-item {
-    >div {
-        max-width: 580px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border: 2px solid white;
-        >h4,
-        p {
-            text-align: left !important;
-            padding: 2%;
-        }
-    }
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    text-decoration: none;
-    background-color: black !important;
-}
-*********************/

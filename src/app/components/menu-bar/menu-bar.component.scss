@@ -7,20 +7,16 @@
     opacity: 1;
     color: white;
     display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
     position: sticky;
     font-family: "Open Sans" !important;
     z-index: 5;
     >div {
-        flex: 1;
+        margin: 25px;
         display: flex;
-        justify-content: center;
         align-items: center;
-        >div {
-            margin: 25px;
-            display: flex;
-            align-items: center;
-        }
+        justify-content: center;
     }
 }
 

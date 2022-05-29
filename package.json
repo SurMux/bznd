@@ -22,6 +22,8 @@
     "@angular/platform-browser-dynamic": "~13.3.3",
     "@angular/router": "~13.3.3",
     "@material/dialog": "^13.0.0",
+    "@mdi/angular-material": "^6.7.96",
+    "@mdi/js": "^6.7.96",
     "@ng-bootstrap/ng-bootstrap": "^12.0.2",
     "@ngx-translate/core": "^14.0.0",
     "@ngx-translate/http-loader": "^7.0.0",

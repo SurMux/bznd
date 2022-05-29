@@ -12,11 +12,16 @@ showCarousel: boolean = false;
   constructor() { }
 
   ngOnInit(): void {
+    if(window.innerWidth >= 1200) {
+      this.showCarousel = false;
+    } else {
+      this.showCarousel = true;
+    }
   }
 
   @HostListener('window:resize', ['$event'])
 onResize(event: { target: { innerWidth: number; }; }) {
-  if (event.target.innerWidth <= 600) {
+  if (event.target.innerWidth <= 1200) {
     this.showCarousel = true;
   } else {
     this.showCarousel = false;
@@ -26,7 +31,7 @@ onResize(event: { target: { innerWidth: number; }; }) {
 
   boxContentArray: [string, string][] = [
     ["/assets/images/glowing-abstract-sd.jpg", "Box1"],
-    ["/assets/images/IMG_4160.jpeg", "Box2"],
+    ["/assets/images/fakurian-design-58Z17lnVS4U-unsplash.jpg", "Box2"],
     ["/assets/images/aldebaran-s-uXchDIKs4qI-unsplash.jpg", "Box3"]
   ];
 

@@ -3,7 +3,8 @@ div {
     background-image: url("/assets/images/neuron-detecting-and-visualizing-neurological-signals.png");
     background-size: 100% 100%;
     >span {
-        margin-right: 13.5%;
+        margin-right: 13%;
+        margin-left: 5%;
         margin-top: 15%;
         float: right;
         >h1,
@@ -11,22 +12,5 @@ div {
             font-family: "Open Sans" !important;
             line-height: 1.2;
         }
-    }
-}
-
-#info-boxes {
-    visibility: visible;
-}
-
-#info-carousel {
-    visibility: hidden;
-}
-
-@media only screen and (max-device-width: 600px) {
-    #info-boxes {
-        visibility: hidden;
-    }
-    #info-carousel {
-        visibility: visible;
     }
 }

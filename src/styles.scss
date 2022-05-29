@@ -59,25 +59,26 @@ body {
 }
 
 .center-text {
-    padding-right: 12%;
-    padding-left: 12%;
     text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 5% 10%;
     min-height: 50vh;
 }
 
-.left-text {
-    padding-left: 12%;
-    padding-right: 3%;
-}
-
 .right-text {
-    padding-right: 12%;
-    padding-left: 3%;
     text-align: right;
     float: right;
+    padding-right: 10%;
+    padding-left: 2%;
+}
+
+.left-text {
+    text-align: left;
+    float: left;
+    padding-left: 10%;
+    padding-right: 2%;
 }
 
 .right-text,
@@ -87,7 +88,7 @@ body {
     justify-content: center;
 }
 
-@media only screen and (max-device-width: 520px) {
+@media only screen and (max-device-width: 700px) {
     h1 {
         font-size: 55px !important;
     }
@@ -105,6 +106,20 @@ body {
     }
     span {
         font-size: 17px !important;
+    }
+}
+
+@media only screen and (max-device-width: 1200px) {
+    .left-text,
+    .right-text,
+    .center-text {
+        padding: 0;
+        padding: 5% 10%;
+        text-align: left;
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 
