@@ -54,6 +54,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     BrowserAnimationsModule,
     HttpClientModule,
     MatDialogModule,
+    NgbModule,
+    MatIconModule,
     TranslateModule.forRoot({
       defaultLanguage: 'de',
       loader: {
@@ -61,8 +63,7 @@ export function HttpLoaderFactory(http: HttpClient) {
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    }),
-    NgbModule
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
