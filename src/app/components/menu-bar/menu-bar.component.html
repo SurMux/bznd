@@ -9,11 +9,11 @@
     </div>
     <div class="menu-item">
         <mat-icon aria-hidden="false" aria-label="easy language" class="menu-icon">local_library</mat-icon>
-        <div>Leichte Sprache</div>
+        <button (click)="trans('ls')"><span [hidden]="ls">Leichte Sprache</span><span [hidden]="!ls">Leichte Sprache ausschalten</span></button>
     </div>
     <div class="menu-item">
-        <mat-icon aria-hidden="false" aria-label="read" class="menu-icon">volume_up</mat-icon>
-        <div onclick="readAloud(document.getElementById('ra-audio'), document.getElementById('ra-player'))">Vorlesen</div>
+        <mat-icon aria-hidden="false" aria-label="easy language" class="menu-icon">local_library</mat-icon>
+        <button (click)="trans('en')"><span [hidden]="en">English</span><span [hidden]="!en">Deutsch</span></button>
     </div>
 
 </div>

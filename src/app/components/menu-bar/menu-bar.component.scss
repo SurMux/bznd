@@ -11,6 +11,7 @@
     flex-direction: row;
     position: sticky;
     font-family: "Open Sans" !important;
+    font-size: 20px !important;
     z-index: 5;
     >div {
         margin: 25px;
@@ -26,6 +27,12 @@
 
 a {
     text-decoration: none;
+    color: white;
+}
+
+button {
+    text-decoration: none;
+    background-color: inherit;
     color: white;
 }
 
