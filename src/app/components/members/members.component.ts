@@ -15,9 +15,7 @@ export class MembersComponent implements OnInit {
   members: {img: string, name: string, content: string}[] = [
     {img: "/assets/images/JudithRommel.jpg", name: "Judith Rommel", content: "JudithRommel"},
     {img: "/assets/images/ManfredBartel.jpg", name: "Manfred Bartel", content: "ManfredBartel"},
-    {img: "/assets/images/PiaBeyerWunsch.jpg", name: "PiaBeyer Wunsch", content: "PiaBeyerWunsch"},
-    {img: "/assets/images/PiaBeyerWunsch.jpg", name: "PiaBeyer Wunsch", content: "PiaBeyerWunsch"},
-    {img: "/assets/images/PiaBeyerWunsch.jpg", name: "PiaBeyer Wunsch", content: "PiaBeyerWunsch"},
+    {img: "/assets/images/PiaBeyerWunsch.jpg", name: "PiaBeyer Wunsch", content: "PiaBeyerWunsch"}
   ];
 
 }
