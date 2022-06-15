@@ -1,51 +1,50 @@
 {
     "Kontakt": {
         "secondary-title": "Inspired by NEURODIVERSITY",
-        "title": "KONTAKT und MITGLIEDSCHAFT",
-        "content": "Schon bald ist es möglich, sich als Mitglied im Verein zu registrieren oder uns als Partner zu unterstützen. Wenn Sie darüber informiert werden möchten wann es soweit ist, oder uns auf andere Weise in Zukunft begleiten sowie unterstützen möchten, dann schreiben Sie uns sehr gerne."
+        "title": "CONTACT and MEMBERSHIP",
+        "content": "Registering as member of the BZND association or supporting us as a partner will open soon. Please contact us for more information. We welcome all forms of support."
 
     },
     "Navigation": {
         "Team": "Team",
-        "Wissen": "Wissen und Lernen",
-        "Wohnen": "Wohnen"
+        "Wissen": "Knowledge",
+        "Wohnen": "Living"
     },
     "Tun": {
-        "secondary-title": "Sichtbarkeit. Gesundheit. Lebendigkeit. Wissenschaft.",
-        "title": "Was wir tun",
-        "content": "Das BZND Zentrum für Neurodiversität e.V. setzt sich für Menschen mit Neurodiversität ein, um das Leben in der Gesellschaft und das ganz persönliche Leben zu verbessern. Wir bieten auf unterschiedlichen Ebenen Wege und Optionen dieses Ziel zu erreichen. Dabei steht für uns der Mensch stets im Fokus der Arbeit, wie auch dessen individuelles, gesellschaftliches und soziales Wohlbefinden und Lebensfreude."
+        "secondary-title": "Visibility. Health. Vibrancy. Science.",
+        "title": "WHAT WE DO",
+        "content": "The BZND Centre for Neurodiversity e.V. aims to improve the lives of people with neurodiversity on societal and personal level. We offer various ways and options to reach this goal. Our work always focuses on people as individuals and how we can support them in creating social and physical environments for more joy and well-being in life."
 
     },
     "Neurodiversität": {
-        "secondary-title": "Sichtbarkeit. Gesundheit. Lebendigkeit. Wissenschaft.",
-        "title": "Neurodiversität",
-        "content": "Neurodiversität beschreibt die Tatsache, dass Menschen unterschiedliche Gehirne und Nervensysteme vorweisen. Neurotypische Menschen, nehmen die Welt und die Sinnesreize auf eine andere Weise wahr, als neuroatypische Personen. Oftmals ist die Wahrnehmung über die Sinnesorgane sehr viel intensiver und reichhaltiger. Das äußert sich zum Beispiel durch Unverträglichkeiten von Gerüchen und Lebensmitteln, unangenehme Reaktionen auf elektromagnetische Felder sowie durch eine gesteigerte Geräuschempfindlichkeit. In Summe Menschen mit verminderter oder erhöhter Reizschwelle. Neben diesen Aspekten bestehen zahlreiche weitere Besonderheiten. Zu den Neuroatypien werden zum Beispiel auch ADHS, Autismus, Dyskalkulie, Legasthenie, Hochsensibilität oder auch Hochbegabung gezählt."
+        "secondary-title": "Visibility. Health. Vibrancy. Science.",
+        "title": "NEURODIVERSITY",
+        "content": "Neurodiversity describes the fact that people have different brains and nervous systems. Neurotypical people perceive the world and sensory stimuli in a different way than neuroatypical people. They often perceive stimuli via sensory organs much more intense and richer. The reactions manifest, e.g., in intolerance of smells and food, unpleasant reactions to electromagnetic fields, and increased sensitivity to sound. In sum, people with a reduced or increased threshold of irritation. In addition to these aspects, there are numerous other special features. Neuroatypicality also includes, for example, ADHD, autism, dyscalculia, dyslexia, high sensitivity, or even high giftedness."
 
     },
     "Wilkommen": {
-        "secondary-title": "Sichtbarkeit. Gesundheit. Lebendigkeit. Wissenschaft.",
-        "title": "BZND ZENTRUM FÜR",
-        "content": "Es ist uns ein maßgebliches Anliegen Menschen, Organisationen, wissenschaftliche Einrichtungen und Vereine in unserem Zentrum zu vereinen. Unsere Projekte umfassen die Bereiche Wohnen, Bildung und Sichtbarkeit der Neurodiversität.",
-        "bznd": "NEURODIVERSITÄT E.V."
+        "secondary-title": "Visibility. Health. Vibrancy. Science.",
+        "title": "BZND Centre for",
+        "bznd": "Neurodiversity e.V."
 
     },
     "Teil": {
-        "secondary-title": "Herzlich Willkommen beim",
-        "title": "EIN TEIL WERDEN",
-        "content": "Es ist uns ein maßgebliches Anliegen Menschen, Organisationen, wissenschaftliche Einrichtungen und Vereine in unserem Zentrum zu vereinen. Unsere Projekte umfassen die Bereiche Wohnen, Bildung und Sichtbarkeit der Neurodiversität."
+        "secondary-title": "Welcome to our website!",
+        "title": "JOIN US",
+        "content": "Uniting people, organisations, scientific institutions and associations in our centre is our main concern. Our projects cover the areas of housing, education and visibility of neurodiversity."
     },
     "Box1": {
-        "title": "Unser Team",
-        "content": "Wir setzen uns gemeinsam ein und sind ein Team aus sehr vielen unterschiedlichen Fachrichtungen: Sozialwissenschaften, Psychologie, Elektrotechnik, Informatik, Biologie, sowie Kommunikationswissenschaften. Wir freuen uns über Menschen, die mitmachen und gemeinsam mit uns etwas bewegen wollen! Hier geht es zum Mitgliedsantrag."
+        "title": "OUR TEAM",
+        "content": "We work together as a team from many different disciplines: social sciences, psychology, electrical engineering, computer science, biology, and communication sciences. We welcome people who want to join us and create change together! Click here for the membership application."
 
     },
     "Box2": {
-        "title": "Wissen und Lernen",
-        "content": "Menschen kommen zu uns für Fragen rund um Neurodiversität. Wir sind Ansprechpartner für Lehrende, Eltern, Betroffene, Politiker, etc. Wir halten Vorträge und geben Workshops. Wir wollen gezielt Beratungsstellen aufbauen. Dafür suchen wir gerade noch finanzielle Unterstützung."
+        "title": "KNOWLEDGE",
+        "content": "People come to us for all questions about neurodiversity. We are contact persons for teachers, parents, affected persons, politicians, etc. We give lectures and workshops. We want to set up and provide targeted counselling centres. Currently, we are looking for financial support for these projects. (Linkto the donation button)"
     },
     "Box3": {
-        "title": "Wohnen",
-        "content": "In Zusammenarbeit mit Studierenden der DHBW Stuttgart entsteht gerade ein Social Innovation Projekt, bei dem neue Erkenntnisse zu Wohnbedürfnissen in einer online Plattform implementiert und anschliessend der Öffentlichkeit zur Verfügung gestellt werden."
+        "title": "HOUSING",
+        "content": "As part of a social innovation project, we are currently implementing new research findings on housing needs in an online platform in cooperation with students from the DHBW Stuttgart. The platform will become available to the general public soon."
     },
     "Impressum": {
         "title": "Impressum",
@@ -98,7 +97,7 @@
     },
     "Member": {
         "title": "DAS SIND WIR.",
-        "secondary-title": "Sichtbarkeit. Gesundheit. Lebendigkeit. Wissenschaft",
+        "secondary-title": "Visibility. Health. Vibrancy. Science.",
         "content": "Unser Vorstand des BZND Zentrum für Neurodiversität e.V. besteht aus",
         "JudithRommel": "Dr. Judith. Rommel (Gründerin und 1. Vorsitzende). Motivation zum Mitmachen. Beruflich Expertise. Beitrag zum Verein.",
         "ManfredBartel": "Prof. Dr. Manfred Bartel (Gründer und Schatzmeister). Motivation zum Mitmachen. Beruflich Expertise. Beitrag zum Verein.",
@@ -106,17 +105,17 @@
     },
     "carousel": {
         "item1": {
-            "name": "Sichtbarkeit. Gesundheit. Lebendigkeit. Wissenschaft.",
+            "name": "Visibility. Health. Vibrancy. Science.",
             "content": "Commodo viverra maecenas accumsan lacus vel faclit sed vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere.",
             "img": "/assets/images/glowing-abstract-sd.jpg"
         },
         "item2": {
-            "name": "Sichtbarkeit. Gesundheit. Lebendigkeit. Wissenschaft.",
+            "name": "Visibility. Health. Vibrancy. Science.",
             "content": "Commodo viverra maecenas accumsan lacus vel faclit sed vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere.",
             "img": "/assets/images/IMG_4160.jpeg"
         },
         "item3": {
-            "name": "Sichtbarkeit. Gesundheit. Lebendigkeit. Wissenschaft.",
+            "name": "Visibility. Health. Vibrancy. Science.",
             "content": "Commodo viverra maecenas accumsan lacus vel faclit sed vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere.",
             "img": "/assets/images/aldebaran-s-uXchDIKs4qI-unsplash.jpg"
         }
