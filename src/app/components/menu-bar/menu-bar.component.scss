@@ -42,3 +42,14 @@ button {
         flex-direction: column;
     }
 }
+
+@media (hover: hover) {
+    .menu-item {
+        transition: ease-in-out 0.18s;
+        &:hover {
+            outline: 2px solid white;
+            outline-offset: 20px;
+            transform: scaleX(1.1) scaleY(1.1);
+        }
+    }
+}

@@ -5,7 +5,6 @@ import { DatenschutzComponent } from './components/datenschutz/datenschutz.compo
 import { HomeComponent } from './components/home/home.component';
 import { ImpressumComponent } from './components/impressum/impressum.component';
 import { MembersComponent } from './components/members/members.component';
-import { MitgliedantragComponent } from './components/mitgliedantrag/mitgliedantrag.component';
 import { SpendenComponent } from './components/spenden/spenden.component';
 
 const routes: Routes = [
@@ -14,11 +13,10 @@ const routes: Routes = [
   { path: 'impressum', component: ImpressumComponent },
   { path: 'member', component: MembersComponent },
   { path: 'datenschutz', component: DatenschutzComponent },
-  { path: 'mitgliedantrag', component: MitgliedantragComponent },
   { path: 'donate', component: SpendenComponent }];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

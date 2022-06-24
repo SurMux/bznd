@@ -23,7 +23,6 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MembersComponent } from './components/members/members.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { MitgliedantragComponent } from './components/mitgliedantrag/mitgliedantrag.component';
 import { SpendenComponent } from './components/spenden/spenden.component';
 
 // AoT requires an exported function for factories
@@ -44,7 +43,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     HomeComponent,
     MembersComponent,
     CarouselComponent,
-    MitgliedantragComponent,
     SpendenComponent
   ],
   imports: [
